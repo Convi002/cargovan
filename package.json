@@ -202,6 +202,7 @@
     "path-is-inside": "^1.0.2",
     "path-key": "^2.0.1",
     "picomatch": "^2.3.0",
+    "popper.js": "^1.16.1",
     "portscanner": "^2.1.1",
     "prelude-ls": "^1.1.2",
     "progress": "^2.0.3",
