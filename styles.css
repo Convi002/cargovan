@@ -1,0 +1,124 @@
+body{
+	background-color: #ccffff;
+
+}
+
+
+.btn {
+
+	background-color: #0033cc;	
+	color: white;
+	border-color: white;
+	width: 180px;
+	height: 50px;
+}
+
+.btn:hover {
+  background-color: red;
+}
+
+.btn1 {
+
+	background-color: #0033cc;	
+	color: white;
+	border-color: white;
+	width: 180px;
+	height: 50px;
+	margin-left: 90px;
+}
+
+.btn1:hover {
+  background-color: red;
+}
+
+.btn2 {
+
+	background-color: #0033cc;	
+	font-size: 50px;
+	color: white;
+	border-color: white;
+	width: 480px;
+	height: 150px;
+}
+
+.btn2:hover {
+  background-color: red;
+}
+
+.btn3 {
+
+	background-color: #0033cc;	
+	font-size: 20px;
+	color: white;
+	border-color: white;
+	width: 380px;
+	height: 50px;
+	margin-left: 450px;
+
+}
+
+.btn3:hover {
+  background-color: red;
+}
+.navbar{
+	height: 110px;
+	background-color: #ccffff;
+
+}
+
+.navbar-brand{
+	margin-left: 20px;
+}
+
+.nav-link{
+	font-size: 22px;
+	color: #0033cc;
+}
+
+.nav-link:hover{
+	color: red;
+}
+
+.breadcrumb {
+	margin-top: 110px; 
+}
+
+.jumbotron {
+ background-image: url("images/carga2.jpg");
+ height: 750px;
+ font-size: 90px;
+ text-shadow: 2px 2px #ccffff;
+color: white;
+}
+
+.container {
+	margin-top: Opx;
+	width: 100%;
+	margin-left: 1px;
+}
+
+.ms-0 {
+padding: 0px;	
+
+}
+
+.tel {
+	font-size: 35px;
+	margin-left: 200px;
+}
+
+footer {
+	background-color: #ecf2f9;
+	height: 300px;
+}
+
+.footer1 {
+	margin-left: 250px;
+	margin-top: 50px;
+
+}
+
+.tel1 {
+	font-size: 35px;
+	margin-left: 500px;
+}
