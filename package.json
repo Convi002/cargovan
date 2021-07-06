@@ -149,6 +149,7 @@
     "isemail": "^3.2.0",
     "isexe": "^2.0.0",
     "joi": "^13.7.0",
+    "jquery": "^3.6.0",
     "js-tokens": "^4.0.0",
     "js-yaml": "^3.14.1",
     "json-schema-traverse": "^0.4.1",
