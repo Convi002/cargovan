@@ -34,11 +34,11 @@ body{
 .btn2 {
 
 	background-color: #0033cc;	
-	font-size: 50px;
+	font-size: 20px;
 	color: white;
 	border-color: white;
-	width: 480px;
-	height: 150px;
+	width: 280px;
+	height: 50px;
 }
 
 .btn2:hover {
@@ -60,33 +60,20 @@ body{
 .btn3:hover {
   background-color: red;
 }
-.navbar{
-	height: 110px;
-	background-color: #ccffff;
-
-}
-
-.navbar-brand{
-	margin-left: 20px;
-}
-
-.nav-link{
-	font-size: 22px;
-	color: #0033cc;
-}
 
 .nav-link:hover{
 	color: red;
+	
 }
 
 .breadcrumb {
-	margin-top: 110px; 
+	margin-top: 65px; 
 }
 
 .jumbotron {
  background-image: url("images/carga2.jpg");
- height: 750px;
- font-size: 90px;
+ height: 550px;
+ font-size: 50px;
  text-shadow: 2px 2px #ccffff;
 color: white;
 }
@@ -109,16 +96,17 @@ padding: 0px;
 
 footer {
 	background-color: #ecf2f9;
-	height: 300px;
+	height: 250px;
 }
 
 .footer1 {
 	margin-left: 250px;
 	margin-top: 50px;
+	font-size: 20px;
 
 }
 
 .tel1 {
-	font-size: 35px;
+	font-size: 25px;
 	margin-left: 500px;
 }
