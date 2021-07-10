@@ -61,6 +61,10 @@ body{
   background-color: red;
 }
 
+.nav-link {
+	margin: 1px;
+	text-align: center;
+}
 .nav-link:hover{
 	color: red;
 	
@@ -89,6 +93,26 @@ padding: 0px;
 
 }
 
+.container2 {
+	width: 100%;
+}
+
+.container-fluid {
+	padding: 0;
+}
+
+.col-md-3 {
+	margin-right: 20px;
+	margin-top: 20px;
+}
+
+.border {
+	border-color: #0033cc;
+	margin-left: autp;
+	margin-right: auto;
+	width:  100%;
+}
+
 .tel {
 	font-size: 35px;
 	margin-left: 200px;
@@ -109,4 +133,8 @@ footer {
 .tel1 {
 	font-size: 25px;
 	margin-left: 500px;
+}
+
+.form-row{
+	margin-top: 100px;
 }
