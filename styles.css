@@ -8,8 +8,8 @@ body{
 
 
 .btn {
-	background-color: #0033cc;	
-	color: white;
+	background-color: #9dc8e4;	
+	color: #666b6e;
 	border-color: white;
 	width: 180px;
 	height: 50px;
@@ -18,7 +18,8 @@ body{
 }
 
 .btn:hover {
-  background-color: red;
+  background-color: #ffcd24;
+  color: #33393d;
 }
 
 .btn1 {
@@ -87,7 +88,7 @@ body{
 }
 
 .btnbread {
-	margin-top: 10px;
+	margin-top: 1px;
 	margin-left: 5px;
 	background-color: #9dc8e4;
 	border: 0;
@@ -105,18 +106,20 @@ a {
 	text-decoration: none;
 	font-size: 13px;
 	font-style: italic;
+	color: #666b6e;
 }
 
 a:hover{
-	color: #FFCD24;
-}
+	color: #33393d;
+}  
 
 .jumbotron {
  background-image: url("images/carga2.jpg");
  height: 550px;
  font-size: 50px;
  text-shadow: 2px 2px #ccffff;
-color: white;
+ color: white;
+ margin-top: 2px;
 }
 
 .container {
@@ -173,5 +176,6 @@ footer {
 }
 
 .form-row{
-	margin-top: 100px;
+	margin-top: 50px;
+	margin-left: 10px;
 }

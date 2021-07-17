@@ -1,7 +1,6 @@
 {
   "name": "expeditecirclelog",
   "version": "1.0.0",
-  "description": "",
   "main": "index.html",
   "dependencies": {
     "accepts": "^1.3.7",
@@ -283,5 +282,14 @@
     "dev": "lite-server"
   },
   "author": "ContyV",
-  "license": "UNLICENSED"
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Convi002/cargovan.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Convi002/cargovan/issues"
+  },
+  "homepage": "https://github.com/Convi002/cargovan#readme",
+  "description": ""
 }
