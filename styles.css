@@ -7,6 +7,7 @@ body{
 }
 
 
+
 .btn {
 	background-color: #9dc8e4;	
 	color: #666b6e;
@@ -23,35 +24,34 @@ body{
 }
 
 .btn1 {
-
-	background-color: #0033cc;	
-	color: white;
+	background-color: #9dc8e4;	
+	color: #666b6e;
 	border-color: white;
 	width: 180px;
 	height: 50px;
-	margin-left: 90px;
+	margin-top: 3px;
 }
 
 .btn1:hover {
-  background-color: red;
-}
+background-color: #ffcd24;
+  color: #33393d;}
 
 .btn2 {
-
-	background-color: #0033cc;	
-	font-size: 20px;
-	color: white;
+	background-color: #9dc8e4;	
+	color: #666b6e;
 	border-color: white;
-	width: 280px;
+	width: 180px;
 	height: 50px;
+	font-size: 15px;
+	margin-left: 10px;
 }
 
 .btn2:hover {
-  background-color: red;
+background-color: #ffcd24;
+  color: #33393d;
 }
 
 .btn3 {
-
 	background-color: #0033cc;	
 	font-size: 20px;
 	color: white;
@@ -59,12 +59,12 @@ body{
 	width: 380px;
 	height: 50px;
 	margin-left: 450px;
-
 }
 
 .btn3:hover {
   background-color: red;
 }
+
 
 .navbar {
 	padding: 0;
@@ -82,8 +82,11 @@ body{
 	text-align: center;
 }
 
+
+
+
 .breadcrumb {
-	margin-top: 50px; 
+	margin-top: 55px; 
 	background-color: #2aabe4;
 }
 
@@ -113,6 +116,10 @@ a:hover{
 	color: #33393d;
 }  
 
+
+
+
+
 .jumbotron {
  background-image: url("images/carga2.jpg");
  height: 550px;
@@ -120,29 +127,32 @@ a:hover{
  text-shadow: 2px 2px #ccffff;
  color: white;
  margin-top: 2px;
+ text-align: left;
+}
+.jumbo-title{
+	margin-left: 20px;
+	margin-top: 20px;
 }
 
-.container {
-	margin-top: Opx;
-	width: 100%;
-
+.jumbo-p {
+	margin-left: 20px;
+	margin-top: 20px;
 }
+
 
 .ms-0 {
 padding: 0px;	
 
 }
 
-.container2 {
-	width: 100%;
-}
 
 .container-fluid {
 	padding: 0;
 }
 
-.col-md-3 {
+.col-sm-6 {
 	margin-right: 20px;
+	margin-left: 20px;
 	margin-top: 20px;
 }
 
@@ -158,24 +168,53 @@ padding: 0px;
 	margin-left: 200px;
 }
 
+
+.row {
+margin-top: 20px;
+margin-left: 5px;
+margin-right: 5px;
+}
+
+.card-img-top {
+	height: 650px;
+}
+
+.card {
+	margin-right: 2px;
+	margin-bottom: 10px;
+}
+
+.texto-img {
+	font-size: 70px;
+	color: #2aabe4;
+	text-align: center;
+	margin-top: 100px;
+}
 footer {
 	background-color: #ecf2f9;
 	height: 250px;
 }
 
 .footer1 {
-	margin-left: 250px;
-	margin-top: 50px;
 	font-size: 20px;
-
+	margin-top: 20px;
+	margin-left: 20px;
 }
 
 .tel1 {
 	font-size: 25px;
-	margin-left: 500px;
+	margin-top: 20px;
+	margin-left: 20px;
 }
 
 .form-row{
 	margin-top: 50px;
 	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.form-group {
+	margin-top: 50px;
+	margin-left: 10px;
+	margin-right: 10px;
 }
