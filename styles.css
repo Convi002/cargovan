@@ -1,7 +1,5 @@
 body{
 	background-color: #2aabe4;
-	margin: 0;
-	padding: 0;
 	width: 100%;
 
 }
@@ -65,26 +63,6 @@ background-color: #ffcd24;
   background-color: red;
 }
 
-
-.navbar {
-	padding: 0;
-	margin: 0;
-	border-bottom-right-radius: 15px;
-}
-
-.navbar-brand { 
-	margin-left: 9px;
-
-}
-
-.nav-link {
-	margin: 10px;
-	text-align: center;
-}
-
-
-
-
 .breadcrumb {
 	margin-top: 55px; 
 	background-color: #2aabe4;
@@ -122,12 +100,11 @@ a:hover{
 
 .jumbotron {
  background-image: url("images/carga2.jpg");
+ background-size: cover;
  height: 550px;
  font-size: 50px;
  text-shadow: 2px 2px #ccffff;
  color: white;
- margin-top: 2px;
- text-align: left;
 }
 .jumbo-title{
 	margin-left: 20px;
