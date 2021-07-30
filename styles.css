@@ -1,9 +1,45 @@
 body{
 	background-color: #2aabe4;
 	width: 100%;
-
 }
 
+.navbar {
+	padding: 0;
+}
+.navbar-brand {
+	font-size: 2rem;
+	margin-left: 10px;
+}
+
+.nav-link {
+	font-size: 1.5rem;
+}
+
+.carousel-item {
+	height:  100vh;
+	min-height: 300px;
+	background: no-repeat scroll center scroll;
+	-webkit-background-size: cover;
+	background-size: cover;
+  margin: 0;
+}
+
+.carousel-item::before {
+	content: "";
+	background: #00cccc	;
+  opacity: 0.6;
+}
+
+.carousel-caption {
+ margin-bottom: 300px;
+} 
+
+.carousel-caption h5 {
+font-size: 6rem;
+font-weight: 700;
+color: #ffffff;
+
+}
 
 
 .btn {
@@ -12,8 +48,7 @@ body{
 	border-color: white;
 	width: 180px;
 	height: 50px;
-	margin-left: 200px;
-	margin-top: 3px;
+
 }
 
 .btn:hover {
