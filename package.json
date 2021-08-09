@@ -131,6 +131,7 @@
     "http-proxy": "^1.18.1",
     "iconv-lite": "^0.4.24",
     "ignore": "^4.0.6",
+    "imagemin": "^8.0.0",
     "immutable": "^3.8.2",
     "import-fresh": "^3.3.0",
     "imurmurhash": "^0.1.4",
@@ -289,7 +290,9 @@
     "dev": "lite-server",
     "scss": "node-sass -o css/ css/",
     "watch:scss": "onchange 'css/*.css' -- npm run scss",
-    "start": "concurrently \"npm run watch:scss \"\" npm run dev\""
+    "start": "concurrently \"npm run watch:scss \"\" npm run dev\"",
+    "clean": "rimraf dist",
+    "imagemin":"imagemin images/* --out-dir dist/images"
   },
   "author": "ContyV",
   "license": "UNLICENSED",
