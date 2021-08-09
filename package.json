@@ -178,6 +178,7 @@
     "negotiator": "^0.6.2",
     "nice-try": "^1.0.5",
     "node-expat": "^2.4.0",
+    "node-less": "^1.0.0",
     "node-sass": "^6.0.1",
     "normalize-path": "^3.0.0",
     "nth-check": "^2.0.0",
@@ -281,7 +282,6 @@
   "devDependencies": {},
   "scripts": {
     "dev": "lite-server",
-    "scss": "node-sass -o css/ css/"
   },
   "author": "ContyV",
   "license": "UNLICENSED",
