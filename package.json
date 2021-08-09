@@ -281,13 +281,14 @@
     "yeast": "^0.1.2"
   },
   "devDependencies": {
+    "copyfiles": "^2.4.1",
     "onchange": "^7.1.0",
     "rimraf": "^2.6.3"
   },
   "scripts": {
     "dev": "lite-server",
     "scss": "node-sass -o css/ css/",
-    "watch:css": "onchange 'css/*.css' -- npm run scss",
+    "watch:scss": "onchange 'css/*.css' -- npm run scss",
     "start": "concurrently \"npm run watch:scss \"\" npm run dev\""
   },
   "author": "ContyV",
