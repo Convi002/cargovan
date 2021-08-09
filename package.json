@@ -281,7 +281,9 @@
   },
   "devDependencies": {},
   "scripts": {
-    "dev": "lite-server"
+    "dev": "lite-server",
+	"scss": "node-sass -o css/ css/"
+
   },
   "author": "ContyV",
   "license": "UNLICENSED",
