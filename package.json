@@ -132,6 +132,7 @@
     "iconv-lite": "^0.4.24",
     "ignore": "^4.0.6",
     "imagemin": "^8.0.0",
+    "imagemin-cli": "^7.0.0",
     "immutable": "^3.8.2",
     "import-fresh": "^3.3.0",
     "imurmurhash": "^0.1.4",
@@ -266,6 +267,7 @@
     "universalify": "^0.1.2",
     "unpipe": "^1.0.0",
     "uri-js": "^4.4.1",
+    "usemin": "^0.6.0",
     "utils-merge": "^1.0.1",
     "which": "^1.3.1",
     "which-module": "^2.0.0",
@@ -292,7 +294,7 @@
     "watch:scss": "onchange 'css/*.css' -- npm run scss",
     "start": "concurrently \"npm run watch:scss \"\" npm run dev\"",
     "clean": "rimraf dist",
-    "imagemin":"imagemin images/* --out-dir dist/images"
+    "imagemin": "imagemin images/* --out-dir dist/images"
   },
   "author": "ContyV",
   "license": "UNLICENSED",
