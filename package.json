@@ -54,6 +54,7 @@
     "component-emitter": "^1.3.0",
     "component-inherit": "^0.0.3",
     "concat-map": "^0.0.1",
+    "concurrently": "^6.2.1",
     "connect": "^3.6.6",
     "connect-history-api-fallback": "^1.6.0",
     "connect-logger": "^0.0.1",
@@ -286,7 +287,8 @@
   "scripts": {
     "dev": "lite-server",
     "scss": "node-sass -o css/ css/",
-    "watch:css": "onchange 'css/*.css' -- npm run scss"	
+    "watch:css": "onchange 'css/*.css' -- npm run scss",
+    "start": "concurrently \"npm run watch:scss \"\" npm run dev\""
   },
   "author": "ContyV",
   "license": "UNLICENSED",
