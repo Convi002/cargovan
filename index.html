@@ -15,7 +15,7 @@
     <link href="node_modules/open-iconic/font/css/open-iconic-bootstrap.css" rel="stylesheet">
     
     <!-- css -->
-    <link href="styles.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
 
 
  
@@ -26,7 +26,7 @@
   <!-- NAVBAR -->
   <nav class="navbar fixed-top navbar-expand-lg navbar-light navbar-light">
   <div class="container-fluid">
-    <a class="navbar-brand text-white" href="index.html">ECL</a>
+    <a class="navbar-brand text-white" href="index.html" class="tooltip-test" title="EXPEDITE CIRCLE LOGISTICS">ECL</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -44,7 +44,7 @@
           <a class="nav-link text-white" href="#" tabindex="-1" aria-disabled="true"><span class="oi oi-phone"></span>(###) ###-####</a>
         </li>
       <il>
-        <a href="contact.html"><button class="btn btn-outline-success" type="submit">REQUEST A QUOTE</button></a>
+        <a href="contact.html"><button class="btn btn-outline-success" type="submit" class="tooltip-test" title="Click">REQUEST A QUOTE</button></a>
       </il>
       </ul>
     </div>
@@ -83,9 +83,37 @@
     <div class="carousel-item active" data-bs-interval="10000">
       <img src="images/carga.jpg" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
-        <h5>First slide label</h5>
-        <p>Some representative placeholder content for the first slide.</p>
+   
+<!-- Button trigger modal -->
+    
+        <h5>Third slide label</h5>
+        <p>Some representative placeholder content for the third slide.</p>
+      
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" id="quickinquiry" class="tooltip-test" title="Click" onclick="myFunction()">
+  Quick Inquiry
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+      
     </div>
     <div class="carousel-item" data-bs-interval="2000">
       <img src="images/carga1.jpg" class="d-block w-100" alt="...">
@@ -139,7 +167,7 @@
   <div class="card-body">
     <h5 class="card-title">cargova</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#"><button class="btn1 btn-outline-success my-2 my-sm-0" type="submit"><b>INFO</b></button></a>
+    <a href="#"><button class="btn1 btn-outline-success my-2 my-sm-0" type="submit" class="tooltip-test" title="Click"><b>INFO</b></button></a>
   </div>
 </div>
 </div>
@@ -149,7 +177,7 @@
   <div class="card-body">
     <h5 class="card-header">cargova</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#"><button class="btn1 btn-outline-success my-2 my-sm-0" type="submit"><b>INFO</b></button></a>
+    <a href="#"><button class="btn1 btn-outline-success my-2 my-sm-0" type="submit" class="tooltip-test" title="Click"><b>INFO</b></button></a>
   </div>
 </div>
 </div>
@@ -159,11 +187,13 @@
   <div class="card-body">
     <h5 class="card-title">cargova</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#"><button class="btn1 btn-outline-success my-2 my-sm-0" type="submit"><b>INFO</b></button></a>
+    <a href="#"><button class="btn1 btn-outline-success my-2 my-sm-0" type="submit" class="tooltip-test" title="Click"><b>INFO</b></button></a>
   </div>
 </div>
 </div>
 </div>
+
+
 
    <!-- Optional JavaScript; choose one of the two! -->
 
@@ -180,7 +210,33 @@
           nav.classList.remove('bg-dark', 'shadow');
         }
       });
+
+      function myFunction() {
+        document.getElementByiD('quickinquiry').disabled = true;
+      }
+      function myFunction (){
+  var element = document.getElementById("quickinquiry");
+  element.classList.toggle("btn");
+}
+
+
+      window.addEventListener('show.bs.modal', function (e) { console.log ("el modal   quickinquiry   se esta mostrando");
+        });
+
+       window.addEventListener('shown.bs.modal', function (e) { console.log ("el modal  quieckinquiry   se mostro");
+        });
+
+       window.addEventListener('hide.bs.modal', function (e) { console.log ("the modal is hiding");
+        });
+
+       window.addEventListener('hidden.bs.modal', function (e) { console.log ("the modal is hidden");
+        });
+
+
+
     </script>
+
+
 
     <!-- Option 2: Separate Popper and Bootstrap JS
   
