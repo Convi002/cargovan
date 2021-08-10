@@ -267,7 +267,6 @@
     "universalify": "^0.1.2",
     "unpipe": "^1.0.0",
     "uri-js": "^4.4.1",
-    "usemin": "^0.6.0",
     "utils-merge": "^1.0.1",
     "which": "^1.3.1",
     "which-module": "^2.0.0",
@@ -286,7 +285,8 @@
   "devDependencies": {
     "copyfiles": "^2.4.1",
     "onchange": "^7.1.0",
-    "rimraf": "^2.6.3"
+    "rimraf": "^2.6.3",
+    "usemin": "^0.6.0"
   },
   "scripts": {
     "dev": "lite-server",
@@ -295,8 +295,10 @@
     "start": "concurrently \"npm run watch:scss \"\" npm run dev\"",
     "clean": "rimraf dist",
     "imagemin": "imagemin images/* --out-dir dist/images",
-    "usemin": "usemin index.html -d dist --htmlmin -o dis / index.html && usemin contacto.html -d dist --htmlmin -o dis / contacto.html  && usemin servicios.html -d dist --htmlmin -o dis / servicios.html"
+    "usemin": "usemin index.html -d dist -o dist / index.html --htmlmin true",
+    "build": "npm run clean && npm run scss && npm run imagemin && npm run usemin"
   },
+
   "author": "ContyV",
   "license": "UNLICENSED",
   "repository": {
