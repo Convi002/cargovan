@@ -294,7 +294,8 @@
     "watch:scss": "onchange 'css/*.css' -- npm run scss",
     "start": "concurrently \"npm run watch:scss \"\" npm run dev\"",
     "clean": "rimraf dist",
-    "imagemin": "imagemin images/* --out-dir dist/images"
+    "imagemin": "imagemin images/* --out-dir dist/images",
+    "usemin": "usemin index.html -d dist --htmlmin -o dis / index.html && usemin contacto.html -d dist --htmlmin -o dis / contacto.html  && usemin servicios.html -d dist --htmlmin -o dis / servicios.html"
   },
   "author": "ContyV",
   "license": "UNLICENSED",
