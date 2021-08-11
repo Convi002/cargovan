@@ -1,6 +1,11 @@
 body{
 	background-color: $blue;
 	width: 100%;
+
+}
+
+p {
+	font-size: 500px;
 }
 
 .navbar {
@@ -8,11 +13,13 @@ body{
 }
 .navbar-brand {
 	font-size: 2rem;
+	font-family: 'Rubik', sans-serif;
 	margin-left: 10px;
 }
 
 .nav-link {
 	font-size: 1.5rem;
+	font-family: 'Rubik', sans-serif;
 }
 
 .carousel-item {
