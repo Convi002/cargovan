@@ -1,5 +1,5 @@
 body {
-  background-color: #dddddd;
+  background-color: blue;
   widht: 100%;
   height: 0; }
 
@@ -11,6 +11,7 @@ body {
 p {
 
   font-size: 20px;
+
 }
 
 h5 {
@@ -19,7 +20,6 @@ h5 {
 }
 
 .card{
-
   margin-top: 10px;
 }
 
@@ -33,127 +33,65 @@ h5 {
 .nav-link {
   font-size: 1.5rem; }
 
+.carousel-inner {
+
+  margin-top: 150px;
+  background-color: blue;
+
+}  
+
+.w-100 {
+
+  margin-left: 5px;  
+}
+
 .carousel-item {
-  height: 100;
+
   background: no-repeat scroll center scroll;
   -webkit-background-size: cover;
   background-size: cover;
-  margin: 0; }
+  margin: 0; 
+    height: 500px;
+
+}
 
 .carousel-item::before {
+
   content: "";
   background: #dddddd;
   opacity: 0.1; }
 
 .carousel-caption {
-  margin-bottom: 300px; }
+  margin-bottom: 10px;
+  margin-left: 700px; }
 
 .carousel-caption h5 {
   font-size: 6rem;
   font-weight: 700;
-  color: #ffffff; }
+  color: lightblue; }
 
 .btn {
-  background-color: #9dc8e4;
-  color: #33F6FF;
+  background-color: lightblue;
+  color: grey;
   border-color: white;
   width: 180px;
   height: 50px; }
 
 .btn:hover {
-  background-color: #ffcd24;
-  color: #33393d; }
+  background-color: mostaza;
+  color: black; }
 
-.btn1 {
-  background-color: #9dc8e4;
-  color: #666b6e;
-  border-color: white;
-  width: 180px;
-  height: 50px;
-  margin-top: 3px; }
-
-.btn1:hover {
-  background-color: #ffcd24;
-  color: #33393d; }
-
-.btn2 {
-  background-color: #9dc8e4;
-  color: #33F6FF;
-  border-color: white;
-  width: 180px;
-  height: 50px;
-  font-size: 15px;
-  margin-left: 10px; }
-
-.btn2:hover {
-  background-color: #ffcd24;
-  color: #33393d; }
-
-.btn3 {
-  background-color: #0033cc;
-  font-size: 20px;
-  color: #33F6FF;
-  border-color: white;
-  width: 380px;
-  height: 50px;
-  margin-left: 450px; }
-
-.btn3:hover {
-  background-color: red; }
-
-.breadcrumb {
-  margin-top: 55px;
-  background-color: #2aabe4; }
-
-.btnbread {
-  margin-top: 1px;
-  margin-left: 5px;
-  background-color: #9dc8e4;
-  border: 0;
-  color: #33F6FF;
-  height: 40px;
-  text-align: center; }
-
-.btnbread:hover {
-  background-color: #ffcd24;
-  border-bottom-right-radius: 15px;
-  color: #33393d; }
 
 a {
   text-decoration: none;
   font-size: 13px;
   font-style: italic;
-  color: #666b6e;
+  color: black;
 
   font-family: 'Rubik', sans-serif; }
 
 a:hover {
-  color: #33393d; }
-
-.jumbotron {
-  background-image: url("images/carga2.jpg");
-  background-size: cover;
-  height: 550px;
-  font-size: 50px;
-  text-shadow: 2px 2px #ccffff;
-  color: #33F6FF; }
-
-.jumbo-title {
-  margin-left: 20px;
-  margin-top: 20px; }
-
-.jumbo-p {
-  margin-left: 20px;
-  margin-top: 20px; }
-
-.ms-0 {
-  padding: 0px; }
-
-
-.col-sm-6 {
-  margin-right: 20px;
-  margin-left: 20px;
-  margin-top: 20px; }
+  color: blue; }
 
 .border {
   border-color: #0033cc;
@@ -187,12 +125,12 @@ a:hover {
   margin-top: 100px; }
 
 footer {
-  background-color: #ecf2f9;
-  height: 250px; }
+  background-color: white;
+  height: 460px; }
 
 .footer1 {
   font-size: 20px;
-  margin-top: 20px;
+  margin-top: 80px;
   margin-left: 20px; }
 
 .tel1 {
@@ -209,3 +147,15 @@ footer {
   margin-top: 50px;
   margin-left: 10px;
   margin-right: 10px; }
+
+  .footer-img {
+
+    width: 100px;
+  }
+
+  .map {
+  height: 400px;
+  /* The height is 400 pixels */
+  width: 100%;
+  /* The width is the width of the web page */
+}
