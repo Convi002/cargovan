@@ -1,0 +1,70 @@
+header {;
+	background-color: #53DAD8;
+	padding-bottom: 1em 0; /*1em=22px*/
+	margin-top: 0;
+	border-radius: 0px 0px 41px 0px;
+	-webkit-border-radius: 0px 0px 41px 0px;
+	-moz-border-radius: 0px 0px 41px 0px;
+	border: 1px solid #526668;
+	height: 67px;
+}
+
+header h1{
+	color: #05636D;
+	font-size: 1.5em;
+	font-style: oblique 50deg;
+	font-weight: 530;
+	display: inline-block;
+	position: relative;
+	bottom: 10px;
+}
+
+header h2 {
+	color: #05636D;
+	font-size: 1em;
+	font-style: oblique 50deg;
+	font-weight: 290;
+	display: inline-block;
+	position: relative;
+	bottom: 35px;
+	left: 860px;	
+}
+
+header h2 a {
+	text-decoration: none;
+	color: #05636D;
+
+}
+
+header h2 a:hover {
+	background-color: #BED0D1;
+	border-radius: 29px 29px 29px 29px;
+	-webkit-border-radius: 29px 29px 29px 29px;
+	-moz-border-radius: 29px 29px 29px 29px;
+	border: 1px solid #ffffff;
+}
+
+
+@media screen and (max-width: 1394px) and (min-width: 1025px){
+
+header {
+	width: 100%;
+}
+
+header h2 {
+	left: 50px;
+	bottom: 10px;
+}
+}
+
+@media screen and (max-width: 1024px) and (min-width: 960px){
+
+header {
+	width: 100%;
+}
+
+header h2 {
+	left: 50px;
+	bottom: 10px;
+}
+}

@@ -1,0 +1,16 @@
+
+footer {
+	background-color: #CDCECE;
+	height: 105px;
+	clear: both;
+	color: #FFFFFF;
+	padding: 1em;
+	text-align: left;
+	margin-bottom: 0;
+	
+	border-top: 5px solid #526668;
+}
+
+footer h3, footer p {
+	font-size: 0.9em;
+}
