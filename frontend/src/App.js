@@ -32,6 +32,10 @@ function App() {
     );
 }
 
+{
+   "stack": "heroku-20"
+}
+
 export default App;
 
  
